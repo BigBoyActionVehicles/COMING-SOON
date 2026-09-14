@@ -1,2 +1,2 @@
-# COMING-SOON Enquiries bigboyactionvehicles@pm.me
+# COMING-SOON 
 ![Logo](logo.png)
