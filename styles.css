@@ -409,7 +409,10 @@ nav.main-nav a[aria-current="page"] {
 .team-grid .team-card:nth-child(3n+1) { border-left: none; }
 
 .team-photo {
-  aspect-ratio: 1;
+  width: 100%;
+   Height: 250px;
+   object-fit: cover;
+   aspect-ratio: 1;
   background: linear-gradient(150deg, var(--purple), var(--black) 70%);
   margin-bottom: 18px;
 }
