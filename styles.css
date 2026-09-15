@@ -272,7 +272,7 @@ nav.main-nav a[aria-current="page"] {
 
 .hero-art--filled img {
   width: 100%;
-  max-width: 420px;
+  max-width: 520px;
   border-radius: 50%;
   box-shadow: 0 20px 60px rgba(0,0,0,0.45);
 }
