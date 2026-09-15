@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Thanks — Big Boy Action Vehicles</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&family=Space+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="index.html" class="logo">Big Boy<span></span></a>
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+      <span></span>
+    </button>
+    <nav class="main-nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="team.html">Team</a>
+      <a href="credits.html">Credits</a>
+      <a href="contact.html" class="btn btn-solid">Get in touch</a>
+    </nav>
+  </div>
+</header>
+
+<section class="section" style="text-align:center;">
+  <div class="wrap">
+    <h1 style="font-size:clamp(2.4rem,6vw,4.2rem);">Got it — thanks.</h1>
+    <p class="lede" style="margin:20px auto 0;">Your enquiry is in. We usually reply within one business day.</p>
+    <p style="margin-top:30px;"><a href="index.html" class="btn">Back to home</a></p>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot-logo">Big Boy Action Vehicles</div>
+    <nav>
+      <a href="about.html">About</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="team.html">Team</a>
+      <a href="credits.html">Credits</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="fine">© <span id="year"></span> Big Boy Action Vehicles. Supplying vehicles to the entertainment and photographic industries.</div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>

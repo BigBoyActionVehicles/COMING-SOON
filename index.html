@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Big Boy Action Vehicles — Vehicles for Film, TV &amp; Photography</title>
+<meta name="description" content="Big Boy Action Vehicles supplies vehicles to the entertainment and photographic industries — insured, permitted and ready to roll.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&family=Space+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="index.html" class="logo">Big Boy<span></span></a>
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+      <span></span>
+    </button>
+    <nav class="main-nav">
+      <a href="index.html" aria-current="page">Home</a>
+      <a href="about.html">About</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="team.html">Team</a>
+      <a href="credits.html">Credits</a>
+      <a href="contact.html" class="btn btn-solid">Get in touch</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <div class="hero-copy">
+      <p class="kicker">Big Boy Action Vehicles</p>
+      <h1>Big vehicles.<br>Bigger scenes.</h1>
+      <p class="lede">We supply vehicles to the entertainment and photographic industries — muscle cars, rigs, monster trucks and anything else your shot list needs. Insured, permitted and ready to roll.</p>
+      <div class="hero-actions">
+        <a href="contact.html" class="btn btn-solid" style="border-color:var(--orange);">Book a vehicle</a>
+        <a href="gallery.html" class="btn">See the fleet</a>
+      </div>
+    </div>
+    <div class="hero-art" aria-hidden="true"></div>
+  </div>
+</section>
+
+<div class="strip">
+  <div class="wrap">
+    <div class="item">Full fleet, one call</div>
+    <div class="item">Insured &amp; permitted</div>
+    <div class="item">Nationwide delivery</div>
+  </div>
+</div>
+
+<section class="section">
+  <div class="wrap about-block">
+    <div class="pull">Built for the shot, not just the road.</div>
+    <div class="copy">
+      <p>Every vehicle in our fleet is chosen and maintained with production in mind — camera mounts, stunt-ready modifications, and the paperwork sorted before you ask for it. Whether you need one hero car for a close-up or a full convoy for a chase sequence, we scope it around your shoot, not the other way round.</p>
+      <p><a href="about.html" class="btn">More about us</a></p>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot-logo">Big Boy Action Vehicles</div>
+    <nav>
+      <a href="about.html">About</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="team.html">Team</a>
+      <a href="credits.html">Credits</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="fine">© <span id="year"></span> Big Boy Action Vehicles. Supplying vehicles to the entertainment and photographic industries.</div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>

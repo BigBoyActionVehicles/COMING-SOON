@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About — Big Boy Action Vehicles</title>
+<meta name="description" content="What Big Boy Action Vehicles does and who we do it for.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&family=Space+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="index.html" class="logo">Big Boy<span></span></a>
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+      <span></span>
+    </button>
+    <nav class="main-nav">
+      <a href="index.html">Home</a>
+      <a href="about.html" aria-current="page">About</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="team.html">Team</a>
+      <a href="credits.html">Credits</a>
+      <a href="contact.html" class="btn btn-solid">Get in touch</a>
+    </nav>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="wrap">
+    <h1 style="font-size:clamp(2.4rem,6vw,4.2rem);">About Big Boy</h1>
+    <p class="lede">Who we are, and what we bring to your production.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap" style="max-width:80ch;">
+    <p style="font-size:1.15rem;">
+      Big Boy Action Vehicles supplies vehicles to the entertainment and photographic industries — from single hero
+      cars for a print campaign to full convoys for a feature film chase sequence. We work with production
+      companies, agencies, photographers and studios who need a vehicle that looks right, performs on cue, and
+      turns up exactly when the call sheet says it will. Our fleet spans muscle cars, monster trucks, stunt-modified
+      rigs and everyday vehicles dressed for the shot, and every one of them is maintained, insured and permitted
+      for on-set and location work before it ever reaches you. We handle the logistics that productions don't have
+      time for: transport, on-set drivers where needed, camera-mount preparation, and the paperwork that keeps
+      health and safety off your list of worries. Big Boy started because we kept seeing productions lose days
+      chasing down the right vehicle from three different suppliers — so we built a fleet and a team that could be
+      the one call you need to make instead.
+    </p>
+    <p><a href="contact.html" class="btn btn-solid" style="border-color:var(--orange);background:var(--orange);">Talk to us about your shoot</a></p>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot-logo">Big Boy Action Vehicles</div>
+    <nav>
+      <a href="about.html">About</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="team.html">Team</a>
+      <a href="credits.html">Credits</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="fine">© <span id="year"></span> Big Boy Action Vehicles. Supplying vehicles to the entertainment and photographic industries.</div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>

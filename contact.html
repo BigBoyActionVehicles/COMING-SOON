@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact — Big Boy Action Vehicles</title>
+<meta name="description" content="Get in touch with Big Boy Action Vehicles to book a vehicle for your production or shoot.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&family=Space+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="index.html" class="logo">Big Boy<span></span></a>
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+      <span></span>
+    </button>
+    <nav class="main-nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="team.html">Team</a>
+      <a href="credits.html">Credits</a>
+      <a href="contact.html" class="btn btn-solid" aria-current="page">Get in touch</a>
+    </nav>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="wrap">
+    <h1 style="font-size:clamp(2.4rem,6vw,4.2rem);">Book a vehicle</h1>
+    <p class="lede">Tell us about your shoot and we'll come back to you with availability.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap contact-layout">
+    <div class="contact-info">
+      <div class="detail">
+        <span class="label">Phone</span>
+        Add your phone number here
+      </div>
+      <div class="detail">
+        <span class="label">Email</span>
+        Add your email address here
+      </div>
+      <div class="detail">
+        <span class="label">Based in</span>
+        Add your location here
+      </div>
+      <div class="detail">
+        <span class="label">Response time</span>
+        We usually reply within one business day.
+      </div>
+    </div>
+
+    <div>
+      <!--
+        FORM SETUP: this form sends to Formspree, a free service that emails
+        submissions straight to your inbox — no server needed.
+        Replace YOUR_FORM_ID below with your own Formspree endpoint.
+        Full steps are in the README that came with this site.
+      -->
+      <form class="enquiry" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <input type="hidden" name="_next" value="thank-you.html">
+        <div class="field">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="Name" required>
+        </div>
+        <div class="field">
+          <label for="phone">Contact number</label>
+          <input type="tel" id="phone" name="Contact number" required>
+        </div>
+        <div class="field">
+          <label for="date">Production date</label>
+          <input type="date" id="date" name="Production date" required>
+        </div>
+        <div class="field">
+          <label for="vehicle">Vehicle required</label>
+          <input type="text" id="vehicle" name="Vehicle required" placeholder="e.g. muscle car, monster truck, stunt rig" required>
+        </div>
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea id="message" name="Message" placeholder="Tell us about the production, location and anything else we should know"></textarea>
+        </div>
+        <button type="submit" class="btn btn-solid">Send enquiry</button>
+        <p class="form-note">By sending this, you agree we'll use these details only to get back to you about your enquiry.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot-logo">Big Boy Action Vehicles</div>
+    <nav>
+      <a href="about.html">About</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="team.html">Team</a>
+      <a href="credits.html">Credits</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="fine">© <span id="year"></span> Big Boy Action Vehicles. Supplying vehicles to the entertainment and photographic industries.</div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
