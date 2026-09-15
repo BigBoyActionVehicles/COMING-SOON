@@ -87,8 +87,8 @@ select:focus-visible {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 18px;
-  padding-bottom: 18px;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 
 .logo {
@@ -100,7 +100,7 @@ select:focus-visible {
 }
 
 .logo img {
-  height: 56px;
+  height: 1in;
   width: auto;
   display: block;
 }
@@ -144,6 +144,7 @@ nav.main-nav a[aria-current="page"] {
   background: var(--orange);
   border-color: var(--orange);
   color: var(--white);
+  border-radius: 8px;
 }
 
 .btn-solid:hover {
@@ -265,6 +266,8 @@ nav.main-nav a[aria-current="page"] {
   align-items: center;
   justify-content: center;
   padding: 8%;
+  background: var(--black);
+  border: none;
 }
 
 .hero-art--filled img {
