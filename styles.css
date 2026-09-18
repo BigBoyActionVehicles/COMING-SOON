@@ -321,7 +321,7 @@ nav.main-nav a[aria-current="page"] {
 .section-head p { color: var(--gray); margin: 0; }
 
 .page-hero {
-  padding: 74px 0 54px;
+  padding: 74px 0 24px;
   border-bottom: var(--edge);
 }
 
