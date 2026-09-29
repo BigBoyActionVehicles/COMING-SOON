@@ -569,3 +569,16 @@ form.enquiry { display: grid; gap: 20px; }
   color: var(--gray);
   font-family: var(--mono);
 }
+.photo-strip {
+  margin: 0;
+  padding: 0;
+  background: #121214;
+  line-height: 0;
+}
+.photo-strip img {
+  display: block;
+  width: 100%;
+  height: clamp(220px, 40vw, 480px);
+  object-fit: cover;
+  object-position: 60% 60%;
+}
