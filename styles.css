@@ -582,3 +582,50 @@ form.enquiry { display: grid; gap: 20px; }
   object-fit: cover;
   object-position: 60% 60%;
 }
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem 1.25rem 4rem;
+}
+
+.team-member {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.team-member img {
+  width: 260px;
+  height: 320px;
+  object-fit: cover;
+  object-position: top center;
+  border-radius: 12px;
+  flex-shrink: 0;
+}
+
+.team-member h3 {
+  margin: 0 0 .25rem;
+}
+
+.team-member .role {
+  margin: 0 0 1rem;
+  color: #e8501a;
+  font-weight: 600;
+}
+
+main h2 {
+  margin: 3rem 0 1rem;
+}
+
+/* Stack on phones */
+@media (max-width: 700px) {
+  .team-member {
+    flex-direction: column;
+  }
+  .team-member img {
+    width: 100%;
+    height: auto;
+    max-height: 380px;
+  }
+}
