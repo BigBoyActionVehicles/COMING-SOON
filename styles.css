@@ -395,62 +395,6 @@ nav.main-nav a[aria-current="page"] {
 
 /* ---------- team ---------- */
 
-.team-member {
-  display: grid;
-  grid-template-columns: 260px 1fr;
-  column-gap: 2rem;
-  align-items: start;
-  margin-bottom: 3rem;
-}
-
-.team-member img {
-  grid-column: 1;
-  grid-row: 1 / span 3;
-  width: 260px;
-  height: 320px;
-  object-fit: cover;
-  object-position: top center;
-  border-radius: 12px;
-}
-
-.team-member h3,
-.team-member .role,
-.team-member p {
-  grid-column: 2;
-}
-
-.team-member h3 {
-  margin: 0 0 .25rem;
-  font-size: 2rem;
-}
-
-.team-member .role {
-  margin: 0 0 1rem;
-  color: #e8501a;
-  font-weight: 600;
-}
-
-.team-member p {
-  max-width: 60ch;
-}
-
-@media (max-width: 700px) {
-  .team-member {
-    grid-template-columns: 1fr;
-  }
-  .team-member img,
-  .team-member h3,
-  .team-member .role,
-  .team-member p {
-    grid-column: 1;
-    grid-row: auto;
-  }
-  .team-member img {
-    width: 100%;
-    height: auto;
-    max-height: 380px;
-  }
-}
 
 
 
